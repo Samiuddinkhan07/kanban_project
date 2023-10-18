@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import DropDownStyles from './DropDown.module.css';
+import TuneIcon from '@mui/icons-material/Tune';
 
 
 const DropDown = () => {
@@ -13,7 +14,7 @@ const DropDown = () => {
 
     <div>
       <button className={DropDownStyles['dropDown-btn']} onClick={() => setIsHover(true)} >
-        Display
+       <TuneIcon style={{color:"#686868",fontSize:"19px",verticalAlign:"sub"}}/> Display
       </button> 
         {isHover && <>
           <div className={DropDownStyles["hover-container"]}>
