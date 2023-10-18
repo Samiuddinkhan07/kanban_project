@@ -1,0 +1,45 @@
+.dropDown-btn {
+    border: 1px solid #f1f1f1;
+    padding: 4px 10px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    position: relative;
+}
+
+.hover-container {
+    border: 1px solid #c7c7c7;
+    width: 20%;
+    position: absolute;
+    top: 51px;
+    padding: 8px;
+    backdrop-filter: blur(10px); 
+    border-radius: 5px;
+
+}
+
+.grouping,.priority{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.grouping span,.priority span{
+   display: inline-block;
+   font-weight: 600;
+   color:#686868;
+   font-size: 12px;
+    
+}
+.priority{
+    margin-top: 10px;
+
+}
+.grouping select,.priority select{
+    width: 50%;
+    padding: 4px;
+    font-weight: 600;
+    border-radius: 5px;
+    border:1px solid #f1f1f1;
+}
